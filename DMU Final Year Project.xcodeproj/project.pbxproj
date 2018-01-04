@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4F2E4CCF1FC0EAD200E967A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E4CCE1FC0EAD200E967A5 /* AppDelegate.swift */; };
-		4F2E4CD11FC0EAD200E967A5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E4CD01FC0EAD200E967A5 /* FirstViewController.swift */; };
-		4F2E4CD31FC0EAD200E967A5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E4CD21FC0EAD200E967A5 /* SecondViewController.swift */; };
+		4F2E4CD31FC0EAD200E967A5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E4CD21FC0EAD200E967A5 /* RegisterVC.swift */; };
 		4F2E4CD61FC0EAD200E967A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2E4CD41FC0EAD200E967A5 /* Main.storyboard */; };
 		4F2E4CD81FC0EAD200E967A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2E4CD71FC0EAD200E967A5 /* Assets.xcassets */; };
 		4F2E4CDB1FC0EAD200E967A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2E4CD91FC0EAD200E967A5 /* LaunchScreen.storyboard */; };
 		4F2E4CE61FC0EAD200E967A5 /* DMU_Final_Year_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E4CE51FC0EAD200E967A5 /* DMU_Final_Year_ProjectTests.swift */; };
 		4F2E4CF11FC0EAD200E967A5 /* DMU_Final_Year_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E4CF01FC0EAD200E967A5 /* DMU_Final_Year_ProjectUITests.swift */; };
+		4FE8F7F21FCF3A2E00915720 /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FE8F7F11FCF3A2E00915720 /* Background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,7 @@
 /* Begin PBXFileReference section */
 		4F2E4CCB1FC0EAD200E967A5 /* DMU Final Year Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMU Final Year Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2E4CCE1FC0EAD200E967A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F2E4CD01FC0EAD200E967A5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		4F2E4CD21FC0EAD200E967A5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4F2E4CD21FC0EAD200E967A5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		4F2E4CD51FC0EAD200E967A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F2E4CD71FC0EAD200E967A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F2E4CDA1FC0EAD200E967A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		4F2E4CEC1FC0EAD200E967A5 /* DMU Final Year ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DMU Final Year ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2E4CF01FC0EAD200E967A5 /* DMU_Final_Year_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMU_Final_Year_ProjectUITests.swift; sourceTree = "<group>"; };
 		4F2E4CF21FC0EAD200E967A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FE8F7F11FCF3A2E00915720 /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				4F2E4CCE1FC0EAD200E967A5 /* AppDelegate.swift */,
-				4F2E4CD01FC0EAD200E967A5 /* FirstViewController.swift */,
-				4F2E4CD21FC0EAD200E967A5 /* SecondViewController.swift */,
+				4F2E4CD21FC0EAD200E967A5 /* RegisterVC.swift */,
 				4F2E4CD41FC0EAD200E967A5 /* Main.storyboard */,
 				4F2E4CD71FC0EAD200E967A5 /* Assets.xcassets */,
 				4F2E4CD91FC0EAD200E967A5 /* LaunchScreen.storyboard */,
 				4F2E4CDC1FC0EAD200E967A5 /* Info.plist */,
+				4FE8F7F11FCF3A2E00915720 /* Background.jpg */,
 			);
 			path = "DMU Final Year Project";
 			sourceTree = "<group>";
@@ -237,6 +237,7 @@
 			files = (
 				4F2E4CDB1FC0EAD200E967A5 /* LaunchScreen.storyboard in Resources */,
 				4F2E4CD81FC0EAD200E967A5 /* Assets.xcassets in Resources */,
+				4FE8F7F21FCF3A2E00915720 /* Background.jpg in Resources */,
 				4F2E4CD61FC0EAD200E967A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F2E4CD31FC0EAD200E967A5 /* SecondViewController.swift in Sources */,
+				4F2E4CD31FC0EAD200E967A5 /* RegisterVC.swift in Sources */,
 				4F2E4CCF1FC0EAD200E967A5 /* AppDelegate.swift in Sources */,
-				4F2E4CD11FC0EAD200E967A5 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
